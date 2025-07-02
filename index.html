@@ -125,18 +125,25 @@
             </div>
             <div class="col-lg-6">
               <div class="hero-image fade-in-right">
-                <!-- imagem -->
+                <!-- imagem otimizada com WebP -->
                 <picture class="responsive-image-container">
                   <source
                     media="(max-width: 768px)"
-                    srcset="assets/images/hero-task-preview.svg"
-                    type="image/svg+xml"
+                    srcset="assets/images/hero.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 769px)"
+                    srcset="assets/images/hero.webp"
+                    type="image/webp"
                   />
                   <img
-                    src="assets/images/hero-task-preview.svg"
+                    src="assets/images/hero.webp"
                     alt="Preview do aplicativo Flow de gerenciamento de tarefas"
                     class="hero-image-element"
                     loading="lazy"
+                    width="500"
+                    height="400"
                   />
                 </picture>
               </div>
