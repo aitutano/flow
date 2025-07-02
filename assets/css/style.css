@@ -245,7 +245,7 @@ p {
   height: auto;
   max-width: min(90vw, 500px);
   object-fit: contain;
-  border-radius: 2rem;
+  border-radius: 3rem;
   box-shadow: var(--shadow-lg);
 }
 
